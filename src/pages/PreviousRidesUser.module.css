@@ -1,0 +1,39 @@
+.tableContainer {
+	margin: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.headerCell,
+.dataCell {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+}
+
+.headerCell {
+	background-color: #e74c3c;
+	color: white;
+	font-weight: bold;
+}
+
+.dataCell {
+	background-color: #fafafa;
+}
+
+.row:nth-child(even) .dataCell {
+	background-color: #f9f9f9;
+}
+
+.row:hover .dataCell {
+	background-color: #f1f1f1;
+}
